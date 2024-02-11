@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./slider.css" />
+  </head>
+  <body>
+    <header>
+      <div class="button">
+        <button type="button">
+          <a href="./home.html" title="HOME">HOME</a>
+        </button>
+        <button class="themebutton">Mode sombre</button>
+      </div>
+    </header>
+    <div class="menu"></div>
+    <div class="swiper mon-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide-3d">
+          <p class="subtitle">Axe metier</p>
+          <p class="title">Animation 3D</p>
+        </div>
+        <div class="swiper-slide slide-dw">
+          <p class="subtitle">Axe metier</p>
+          <p class="title">Développement web</p>
+        </div>
+        <div class="swiper-slide slide-cdeb">
+          <p class="subtitle">Axe metier</p>
+          <p class="title">Communication digitale et E-Business</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./slider.js"></script>
+  </body>
+</html>

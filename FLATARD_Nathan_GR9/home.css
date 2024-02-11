@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+*.dark {
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+button {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 10px 32px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 3px solid rgba(128, 128, 128, 0.597);
+}
+
+.boutonmenu {
+  padding: 10px;
+  margin: auto;
+  background-color: rgb(195, 195, 195);
+  border-radius: 10px;
+}
+
+.boutonmenu.dark {
+  background-color: rgb(94, 94, 94);
+}
+
+.boutonmenu:hover {
+  background-color: rgb(82, 82, 82);
+}
+
+.boutonmenu.dark:hover {
+  background-color: rgb(140, 140, 140);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a.dark {
+  color: white;
+}
+
+a:hover {
+  color: rgb(41, 41, 96);
+}
+
+a.dark:hover {
+  color: rgb(116, 116, 146);
+}
+
+.themebuttonk {
+  background-color: rgb(195, 195, 195);
+  border-radius: 10px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.themebutton.dark {
+  background-color: rgb(94, 94, 94);
+  border-radius: 10px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.themebutton:hover {
+  background-color: rgb(154, 162, 196);
+}
+
+.themebutton.dark:hover {
+  background-color: rgb(116, 116, 146);
+}

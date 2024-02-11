@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.css"
+    />
+    <link rel="stylesheet" href="tabs.css" />
+  </head>
+  <body>
+    <header>
+      <div class="button">
+        <button type="button">
+          <a href="./home.html" title="HOME">HOME</a>
+        </button>
+        <button class="themebutton">Mode sombre</button>
+      </div>
+    </header>
+    <main class="portfolio">
+      <div class="filters">
+        <ul>
+          <li data-filter="jv" class="active">Jeux Vidéos</li>
+          <li data-filter="3d">Animation 3D</li>
+          <li data-filter="cdeb">Communication digitale</li>
+          <li data-filter="dw">Développement web</li>
+          <li data-filter="cd">Crétion & Design</li>
+        </ul>
+      </div>
+      <div class="portfolio-elements">
+        <div class="card filtr-item" data-category="3d">
+          <div class="card-header">
+            <p class="card-title">Animation 3D</p>
+            <div class="card-axe">3D</div>
+          </div>
+        </div>
+
+        <div class="card filtr-item" data-category="jv">
+          <div class="card-header">
+            <p class="card-title">Jeux vidéo</p>
+            <div class="card-axe">JV</div>
+          </div>
+        </div>
+
+        <div class="card filtr-item" data-category="cdeb">
+          <div class="card-header">
+            <p class="card-title">Communication Digitale et e-buisiness</p>
+            <div class="card-axe">cdeb</div>
+          </div>
+        </div>
+
+        <div class="card filtr-item" data-category="cd">
+          <div class="card-header">
+            <p class="card-title">Création et design</p>
+            <div class="card-axe">CD</div>
+          </div>
+        </div>
+
+        <div class="card filtr-item" data-category="dw">
+          <div class="card-header">
+            <p class="card-title">Développement Web</p>
+            <div class="card-axe">dw</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"
+      integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.js"></script>
+    <script src="tabs.js"></script>
+  </body>
+</html>
